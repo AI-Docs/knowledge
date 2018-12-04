@@ -12,7 +12,7 @@ theme:
   search_index_only: true
   include_search_page: true
 
-nav:
+pages:
 - Samples:
   - Sample Page A: sample-a.md
   - Sample Subfolder:
@@ -22,7 +22,7 @@ nav:
 
 markdown_extensions:
   - toc:
-      permalink: '#'
+      permalink: 
 
 extra:
   history_buttons: false
