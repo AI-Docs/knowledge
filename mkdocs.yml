@@ -4,13 +4,7 @@ site_author: 'J Sundar'
 
 repo_url: https://github.com/ai-docs/knowledge
 
-theme:
-  name: null
-  custom_dir: 'mkdocs_windmill'
-  # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
-  static_templates: [404.html]
-  search_index_only: true
-  include_search_page: true
+theme: 'windmill'
 
 pages:
 - Windmill Theme:
