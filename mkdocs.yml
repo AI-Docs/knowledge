@@ -4,18 +4,15 @@ site_author: 'J Sundar'
 
 repo_url: https://github.com/ai-docs/knowledge
 
-theme: 
+theme:
   name: null
-  custom_dir: 'mkdocs_windmill'
+  custom_dir: nav_pages
   # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
   static_templates: [404.html]
   search_index_only: true
   include_search_page: true
 
 nav:
-- Windmill Theme:
-  - Usage: index.md
-  - Customization: customization.md
 - Samples:
   - Sample Page A: sample-a.md
   - Sample Subfolder:
@@ -29,4 +26,4 @@ markdown_extensions:
 
 extra:
   history_buttons: false
-  version: 0.1.6
+  version: 0.1.1
