@@ -1,11 +1,11 @@
-site_name: 'Windmill MkDocs Theme'
-site_description: 'MkDocs theme focused on navigation and usability.'
-site_author: 'Dmitry S'
+site_name: 'AI Docs'
+site_description: 'ML Knowledge Documentation'
+site_author: 'J Sundar'
 
-repo_url: https://github.com/gristlabs/mkdocs-windmill
+repo_url: https://github.com/ai-docs/knowledge
 
 theme:
-  name: null
+  name: windmill
   custom_dir: mkdocs_windmill
   # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
   static_templates: [404.html]
